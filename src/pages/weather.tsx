@@ -32,9 +32,9 @@ const weather = () => {
     }
   };
   return (
-    <div className="w-full min-h-screen h-full bg-black font-Orbitron text-white flex flex-col justify-start items-center p-4">
-      <div className="pt-10 w-full flex flex-col justify-center items-center h-full gap-5">
-        <h1 className="text-5xl">Weather App</h1>
+    <div className="w-full min-h-screen h-full bg-black font-Orbitron text-white flex flex-col justify-start items-center p-4 pt-[90px]">
+      <div className="w-full flex flex-col justify-center items-center h-full gap-5">
+        <h1 className="text-5xl text-center">Weather App</h1>
         <div className="flex gap-5">
           <input
             placeholder="Enter a city"

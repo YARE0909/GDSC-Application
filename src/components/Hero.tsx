@@ -16,7 +16,6 @@ const Hero = () => {
         <div className="w-full h-fit flex flex-col md:flex md:flex-row gap-5 justify-center items-center text-xl md:text-3xl">
           <a className="p-4 bg-gray-800 rounded-lg hover:scale-[1.01] duration-300" href="/weather">Weather App </a>
           <a className="p-4 bg-gray-800 rounded-lg hover:scale-[1.01] duration-300" href="/random"> Random text generator </a>
-          <a className="p-4 bg-gray-800 rounded-lg hover:scale-[1.01] duration-300" href="/quiz">Quiz App </a>
         </div>
       </div>
     </div>
