@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link
             href="/"
             className="text-3xl md:text-4xl font-extrabold text-purple-600"
-            onClick={() => setMobileNav(!mobileNav)}
+            onClick={() => setMobileNav(false)}
           >
             GDSC Tasks
           </Link>
