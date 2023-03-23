@@ -24,7 +24,7 @@ const random = () => {
       >
         Generate Word
       </button>
-      <h1 className="text-4xl">Random Text</h1>
+      <h1 className="text-4xl">Your Random Text</h1>
       {wordState ? (
         <h1 className="text-3xl text-center">{randomWord}</h1>
       ) : (
