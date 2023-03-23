@@ -10,6 +10,7 @@ const Navbar = () => {
           <Link
             href="/"
             className="text-3xl md:text-4xl font-extrabold text-purple-600"
+            onClick={() => setMobileNav(!mobileNav)}
           >
             GDSC Tasks
           </Link>
@@ -46,7 +47,9 @@ const Navbar = () => {
       </div>
       <div
         className={
-          mobileNav ? "md:hidden w-full h-fit flex flex-col font-Orbitron border-t-2 border-b-2 border-gray-700 bg-black" : "hidden"
+          mobileNav
+            ? "md:hidden w-full h-fit flex flex-col font-Orbitron border-t-2 border-b-2 border-gray-700 bg-black"
+            : "hidden"
         }
       >
         <Link
