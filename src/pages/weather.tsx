@@ -28,6 +28,7 @@ const Weather = () => {
       });
       setView(true);
     } catch (error) {
+      console.log(error);
       setError(true);
     }
   };
