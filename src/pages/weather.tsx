@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import weatherAPI from "./api/weatherAPI";
 
-const weather = () => {
+const Weather = () => {
   const [city, setCity] = useState("");
   const [view, setView] = useState(false);
   const [error, setError] = useState(false);
@@ -110,4 +110,4 @@ const weather = () => {
   );
 };
 
-export default weather;
+export default Weather;

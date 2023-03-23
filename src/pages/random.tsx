@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import randomAPI from "./api/randomAPI";
 
-const random = () => {
+const Random = () => {
   const [randomWord, setRandomWord]: any = useState([]);
   const [wordState, setWordState] = useState(false);
 
@@ -36,4 +36,4 @@ const random = () => {
   );
 };
 
-export default random;
+export default Random;
